@@ -16,8 +16,71 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>Introduction to RabbitMQ</section>
+				<section>
+					<section>What is RabbitMQ?</section>
+					<section>
+						<img src="./img/message-queue-small.png">
+					</section>
+				</section>
+				<section>
+					<section>Why Rabbitmq is needed?</section>
+					<section>
+						<img src="./img/workflow-rabbitmq.png">
+					</section>
+				</section>
+				<section>
+					<section>When and why should you use RabbitMQ?</section>
+					<section>
+						<img src="./img/rabbitmq-example.png">
+					</section>
+				</section>
+				<section>
+					<section>Exchanges Rabbitmq</section>
+					<section>
+						Message flow in RabbitMQ
+						<img src="./img/exchanges.png">
+					</section>
+				</section>
+				<section>
+					<section>Types of exchanges</section>
+					<section>
+						<div>Message flow in RabbitMQ</div>
+						<img style="max-height: 400px;" src="./img/types.png"><br>
+						<ul style="font-size:20px">
+							<li>Direct: The message is routed to the queues whose binding key exactly matches the routing key of the message. For example, if the queue is bound to the exchange with the binding key pdfprocess, a message published to the exchange with a routing key pdfprocess is routed to that queue.</li>
+							<li>Topic: The topic exchange does a wildcard match between the routing key and the routing pattern specified in the binding.</li>
+							<li>Fanout: A fanout exchange routes messages to all of the queues bound to it.</li>
+						</ul>
+
+					</section>
+				</section>
+				<section>
+					<section>The management interface</section>
+					<section>
+						<img src="./img/int.jpg"><br>
+					</section>
+				</section>
+				<section>
+					<section>Advantages of RabbitMQ</section>
+					<section>
+						<ul>
+							<li>Asynchronous Messaging</li>
+							<li>Developer Experience</li>
+							<li>Distributed Deployment</li>
+							<li>Enterprise & Cloud Ready</li>
+							<li>Tools & Plugins</li>
+							<li>Management & Monitoring</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					Thank You!<br>
+					<img src="./img/bye.png">
+				</section>
+
+
+
 			</div>
 		</div>
 
